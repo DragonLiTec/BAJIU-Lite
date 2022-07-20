@@ -51,7 +51,7 @@ BAJIU-Lite is a resource-rich FPGA development board, which is dedicated to faci
     3. Select the bit file
     4. Click on "Start Program"
 
-![hello_uart](images/hello_uart.apng)
+![hello_uart](images/hello_uart.webp)
 #
 # <span id="manual">Manual</span>
 

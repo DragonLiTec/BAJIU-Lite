@@ -5,7 +5,7 @@ BAJIU-Lite is a resource-rich FPGA development board, which is dedicated to faci
 ![bajiu-lite](images/BAJIU-lite.png)
 
 
-# <span id="hardware">Hardware</span>
+# [Hardware](#hardware)
 ## For FPGA developers
 | Feature | Count |
 | :-----| ----:
@@ -28,13 +28,22 @@ BAJIU-Lite is a resource-rich FPGA development board, which is dedicated to faci
 
 ---
 ## For RISC-V developers
- - Latest version of GCC
- - QtCreator IDE
- - QtCreator IDE Debuger Plugin for RISC-V
- - CMake Build System
- - Integrated serial port
+  1. [CRiscV](examples/CRiscV/)
+     - RV32I[M][A][F[D]][C] instruction set
+     - Pipelined from 2 to 5+ stages ([Fetch*X], - - - Decode, Execute, [Memory], [WriteBack])
+     - Branch prediction
+     - Instruction, data cache
+     - Multiplication and division unit
+     - OpenOCD debugging features
+  2. [RVDE](https://github.com/DragonLiTec/RVDE/releases/tag/1.0)
+      - Latest version of GCC
+      - QtCreator IDE
+      - QtCreator IDE Debuger Plugin for RISC-V
+      - CMake Build System
+      - Integrated serial port
+  ![RVDE](examples/CRiscV/imgs/preview.gif)
 #
-# <span id="get_started">Get Started</span>
+# [Get Started](#get-started)
 
 1. Download Efinity Tool from [Efinix](https://www.efinixinc.com)
    - [Windows 2021.2](https://efinixinc.com/dl/efinity-2021.2.323-windows-x64.msi)
@@ -53,7 +62,7 @@ BAJIU-Lite is a resource-rich FPGA development board, which is dedicated to faci
 
 ![hello_uart](images/hello_uart.webp)
 #
-# <span id="manual">Manual</span>
+# [Manual](#manual)
 
 - Efinity
   - [Efinity Software User Guide](https://efinixinc.com/support/docsdl.php?s=ef&pn=UG-EFN-SOFTWARE)
